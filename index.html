@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <style>
+        .diva {
+            text-align: center;
+            background-color: cadetblue;
+            height: 90px;
+            width: 1700px;
+            display: table;
+            margin: auto;
+
+        }
+
+        .diva p {
+            color: white;
+            font-size: 35px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .divb {
+            margin: 20px;
+            text-align: center;
+
+
+        }
+
+        .inputa {
+            border-style: solid;
+            border-color: green;
+        }
+        #list_id
+        {
+            text-align: center;
+            font-size: 17px;
+            font-family:Georgia;
+
+        }
+        .tik_carpi{
+            margin-left:12px;
+        }
+       
+       
+    </style>
+
+    <div class="diva">
+        <p>Yapılacaklar Listesi</p>
+    </div>
+
+    <div class="divb" id="div_id">
+        <input class="inputa" id="input_text" type='text' style="width: 350px;">
+        <input class="inputa" type="button" value='EKLE' onclick="Ekle();">
+        
+    </div>
+    
+    
+<ul id="list_id">
+
+</ul>
+
+<div class="divb" id="div_id">
+<input class="inputa" type="button" value='Tümünü Sil' onclick="TumunuSil();">
+</div>
+
+    <script src="main.js" ></script>
+</body>
+
+</html>
