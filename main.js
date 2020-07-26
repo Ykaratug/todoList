@@ -7,7 +7,7 @@ function Ekle()
     console.log(input_icerigi);
     if(input_icerigi=="")
     {
-        alert("Bir şey yazmayı unuttunuz :)");
+        alert("Bir şey yazmayı unuttunuz :) ");
 }
 else{
    var olustur= document.createElement("li");
